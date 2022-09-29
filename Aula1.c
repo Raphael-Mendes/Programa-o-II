@@ -47,7 +47,7 @@ int main(){
 }
 */
 
-// Aula 3 - Vetores
+/* Aula 3 - Vetores
 int main(void){
     float nota[5], total, media;
     for(int i = 0; i<5; ++i) {
@@ -61,5 +61,46 @@ int main(void){
     printf("sua média é %f\n", media);
     printf("%f", nota);
 
+    return 0;
+}
+*/
+
+/* aula 4 - Estruturas 
+
+int main(){
+    struct estrutura{
+        int in;
+        float num;
+        char letra;
+    };
+    struct estrutura agora;
+    agora.in = 29;
+    agora.num = 0.3;
+    agora.letra = 'a';
+    printf("\n%i\n %.1f\n %c", agora.in, agora.num, agora.letra);
+    
+    return 0;
+}
+
+*/
+
+//aula 5 - Ponteiros + estruturas
+
+int main(){
+    struct data
+    {
+        int dia;
+        int mes;
+        int ano;
+    };
+    struct data agora, *ponteiro;
+    ponteiro = &agora;
+    /*metódo errado:
+    *ponteiro.dia = 29
+    */
+   ponteiro->dia = 29;
+   ponteiro->mes = 9;
+   ponteiro->ano = 2022;
+    printf("%i/%i/%i", agora.dia, agora.mes, agora.ano);
     return 0;
 }
