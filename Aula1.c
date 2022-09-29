@@ -27,11 +27,13 @@ int main(){
     int *px;
     double *py;
     
-    px = &x;
-    py = &y;
-    
-    soma = *py + *px;
-    
-    printf("endereço x = %d e endereço px = %d", px, &x);
+    px = 6422284;
+    py = 6422272;
+
+    soma = *px + *py;
+    printf("\n endereço x = %d e endereço y = %d \n", &x, &y);
+    printf("A soma do X e do Y é %f \n", soma);
+    printf("o valor de x é %d", *px);
+    printf("o valor de x é %f", *py);
     return 0;
 }
