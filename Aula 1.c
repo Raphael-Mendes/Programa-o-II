@@ -1,7 +1,5 @@
-
-#include <stdio.h>
-
 //Aula 1 - Introdução a Ponteiros
+#include <stdio.h>
 int main(){
     int x, y;
     int *p;
@@ -12,6 +10,3 @@ int main(){
     *p = y;
     printf("%d %d", x, y);
     return 0;
-}
-
-

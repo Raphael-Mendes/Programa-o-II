@@ -1,5 +1,5 @@
 //aula 4 - Estruturas 
-
+#include <stdio.h>
 int main(){
     struct estrutura{
         int in;

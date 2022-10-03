@@ -1,6 +1,5 @@
-//aula 2 Ponteiros com double e endereços de memória
+//Aula 2 - Ponteiros com double e endereços de memória
 #include <stdio.h>
-
 int main(){
     int x;
     double y, soma;

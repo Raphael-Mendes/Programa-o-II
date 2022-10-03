@@ -1,4 +1,5 @@
 // Aula 6 - Funções
+#include <stdio.h>
 int main(void){
     int x = 10;
     void mensagem(void);

@@ -1,4 +1,5 @@
 //Aula 3 - Vetores
+#include <stdio.h>
 int main(void){
     float nota[5], total, media;
     for(int i = 0; i<5; ++i) {

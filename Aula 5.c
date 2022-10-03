@@ -1,4 +1,5 @@
 //aula 5 - Ponteiros + estruturas
+#include <stdio.h>
 int main(){
     struct data
     {
